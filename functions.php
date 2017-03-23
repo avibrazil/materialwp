@@ -159,4 +159,4 @@ require get_template_directory() . '/inc/comments-callback.php';
 /**
  * Stop imagifying emojis on feeds
  */
-require get_template_directory() . 'inc/feed-remove-static-wpemoji.php';
+require get_template_directory() . '/inc/feed-remove-static-wpemoji.php';
