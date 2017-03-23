@@ -154,3 +154,9 @@ require get_template_directory() . '/inc/bootstrap-walker.php';
  * Comments Callback.
  */
 require get_template_directory() . '/inc/comments-callback.php';
+
+
+/**
+ * Stop imagifying emojis on feeds
+ */
+require get_template_directory() . 'inc/feed-remove-static-wpemoji.php';
