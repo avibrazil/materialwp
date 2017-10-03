@@ -160,3 +160,9 @@ require get_template_directory() . '/inc/comments-callback.php';
  * Stop imagifying emojis on feeds
  */
 require get_template_directory() . '/inc/feed-remove-static-wpemoji.php';
+
+
+/**
+ * Stop creating "site/{N}" folders for uploads on MultiSite installations
+ */
+require get_template_directory() . '/inc/multisite-kill-upload-extra-folders.php';
